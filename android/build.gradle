@@ -27,6 +27,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.ril.pdf_merger'
     compileSdkVersion 30
 
     sourceSets {
